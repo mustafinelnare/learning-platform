@@ -1,0 +1,20 @@
+.footer__link {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 25px;
+    text-align: center;
+    color: #8F95A5;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-size: 12px;
+    }
+}

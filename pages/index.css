@@ -52,3 +52,6 @@
 @import url(../blocks/contacts/__input/contacts__input.css);
 @import url(../blocks/contacts/__button/contacts__button.css);
 @import url(../blocks/contacts/__image/contacts__image.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__link/footer__link.css);
