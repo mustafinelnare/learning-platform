@@ -1,0 +1,19 @@
+.pricing__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 992px) {
+    .pricing__paragraph {
+        font-size: 16px;
+        max-width: 296px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pricing__paragraph {
+        font-size: 13px;
+        max-width: 270px;
+    }
+}

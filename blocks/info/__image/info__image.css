@@ -1,0 +1,18 @@
+.info__image {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 992px) {
+  .info__image {
+    width: 336px;
+    height: 336px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .info__image {
+      width: 295px;
+      height: 295px;
+    }
+  }

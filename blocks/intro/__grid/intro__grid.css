@@ -1,0 +1,16 @@
+.intro__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 13px;
+    margin: 79px auto auto;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 480px) {
+    .intro__grid {
+        margin-top: 64px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}

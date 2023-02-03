@@ -1,0 +1,15 @@
+.info__space {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .info__space {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .info__space {
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,33 @@
+.intro__image {
+  margin: 35px auto 10px 30px;
+  width: 350px;
+  height: 330px;
+}
+
+@media screen and (max-width: 992px) {
+  .intro__image {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__image {
+    width: 214px;
+    height: 214px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .intro__image {
+    width: 185px;
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__image {
+    width: 215px;
+    height: 215px;
+  }
+}

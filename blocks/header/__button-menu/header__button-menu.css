@@ -1,0 +1,16 @@
+.header__button-menu {
+    display: none;
+    background: inherit;
+    border: none;
+}
+
+.header__button-menu:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .header__button-menu {
+        display: block;
+    }
+}

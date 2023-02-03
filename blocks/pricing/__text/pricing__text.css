@@ -1,0 +1,12 @@
+.pricing__text {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    .pricing__text {
+      padding-top: 7px;
+    }
+  }
+  

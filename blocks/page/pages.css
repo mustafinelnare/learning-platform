@@ -1,0 +1,8 @@
+.page {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background: #fff;
+    max-width: 1600px;
+    min-width: 320px;
+    margin: 0 auto;
+    color: #8F95A5;
+}

@@ -1,0 +1,26 @@
+.info__numbers {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    margin: 0;
+    color: #2A3246;
+}
+
+.info__numbers:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .info__numbers {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info__numbers {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,13 @@
+.pricing__places {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 950px) {
+    .pricing__places {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

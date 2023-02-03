@@ -1,0 +1,33 @@
+.contacts__image {
+  width: 477px;
+  height: 429px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts__image {
+      
+      margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contacts__image {
+    width: 312px;
+    height: 281px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts__image {
+    margin-top: 40px;
+    width: 358px;
+    height: 322px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .contacts__image {
+      width: 253px;
+      height: 228px;
+    }
+  }

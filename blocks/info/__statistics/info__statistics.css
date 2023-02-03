@@ -1,0 +1,13 @@
+.info__statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 35px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+    .info__statistics {
+        flex-direction: column;
+    }
+}

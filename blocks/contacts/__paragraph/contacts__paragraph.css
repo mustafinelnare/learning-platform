@@ -1,0 +1,24 @@
+.contacts__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 776px;
+}
+
+@media screen and (max-width: 992px) {
+    .contacts__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__paragraph {
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contacts__paragraph {
+        font-size: 13px;
+    }
+}

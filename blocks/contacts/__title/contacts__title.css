@@ -1,0 +1,19 @@
+.contacts__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #000;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .contacts__title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contacts__title {
+        font-size: 24px;
+    }
+}

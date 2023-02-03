@@ -1,0 +1,11 @@
+.pricing__image {
+    width: 311px;
+    height: 311px;
+}
+
+@media screen and (max-width: 992px) {
+    .pricing__image {
+        width: 250px;
+        height: 250px;
+    }
+}

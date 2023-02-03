@@ -1,0 +1,9 @@
+.pricing__place {
+    margin: auto;
+}
+
+@media screen and (max-width: 950px) {
+    .pricing__place {
+        margin-bottom: 25px;
+    }
+}

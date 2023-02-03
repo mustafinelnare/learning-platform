@@ -1,0 +1,24 @@
+.intro__button {
+    font-size: 18px;
+    font-weight: 500;
+    background: #263238;
+    border: none;
+    border-radius: 5px;
+    width: 196px;
+    height: 57px;
+    margin: 30px auto 30px 30px;
+    color: #fff;
+}
+
+.intro__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 425px) {
+    .intro__button {
+        margin-left: 50px;
+        margin-right: auto;
+    }
+}

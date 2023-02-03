@@ -1,0 +1,19 @@
+.header__link {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #263238;
+}
+
+.header__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 992px) {
+    .header__link {
+        font-size: 16px;
+    }
+}

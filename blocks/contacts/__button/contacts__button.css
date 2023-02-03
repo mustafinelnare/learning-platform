@@ -1,0 +1,30 @@
+.contacts__button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 264px;
+  height: 80px;
+  background: #263238;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+
+.contacts__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 767px) {
+  .contacts__button {
+    font-size: 13px;
+    width: 145px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .contacts__button {
+        margin-top: 30px;
+    }
+}

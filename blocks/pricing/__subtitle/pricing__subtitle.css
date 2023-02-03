@@ -1,0 +1,19 @@
+.pricing__subtitle {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #263238;
+}
+
+@media screen and (max-width: 992px) {
+    .pricing__subtitle {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pricing__subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

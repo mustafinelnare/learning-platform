@@ -1,0 +1,35 @@
+.lead__picture {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 85px;
+  height: 85px;
+}
+
+@media screen and (max-width: 1400px) {
+  .lead__picture {
+    width: 70px;
+    height: 70px;
+    right: -70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .lead__picture {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__picture {
+    top: 10px;
+    right: -60px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+    .lead__picture {
+      display: none;
+    }
+  }

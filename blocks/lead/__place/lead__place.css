@@ -1,0 +1,10 @@
+.lead__place {
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .lead__place {
+        display: flex;
+        flex-direction: column;
+    }
+}

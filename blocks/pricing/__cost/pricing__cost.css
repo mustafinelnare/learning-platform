@@ -1,0 +1,18 @@
+.pricing__cost {
+  border-radius: 5px;
+  background: #eee;
+  width: 240px;
+  height: 45px;
+}
+
+.pricing__cost:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 15%);
+}
+
+@media screen and (max-width: 550px) {
+  .pricing__cost {
+    width: 170px;
+    height: 37px;
+  }
+}
